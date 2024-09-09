@@ -1,0 +1,89 @@
+@import url('styles.css');
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Página de Contato */
+.contato {
+    background-color: #f4f4f4;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 1200px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.contato h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contato p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Container dos membros */
+.membros {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo dos membros (cards) */
+.membro {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.membro img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.membro-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.membro h3 {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+}
+
+.membro .info {
+    margin: 10px 0;
+    color: #555;
+}
+
+
+
+/* Estilo para ícones dentro de links sociais */
+.social-links a img {
+    width: 25px;  /* Controla o tamanho dos ícones */
+    height: 25px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a img:hover {
+    transform: scale(1.3); /* Aumenta o ícone quando passa o mouse */
+}
+
+
+.membro:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}

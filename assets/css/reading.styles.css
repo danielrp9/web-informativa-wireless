@@ -1,0 +1,388 @@
+/* Incluindo estilos da página principal */
+@import url('styles.css');
+
+/* Estilo geral para as páginas de leitura */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Layout principal para páginas de leitura */
+.content {
+    display: flex;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+/* Índice lateral */
+.indice-lateral {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.indice-lateral h3 {
+    margin-top: 0;
+}
+
+.indice-lateral ul {
+    list-style: none;
+    padding: 0;
+}
+
+.indice-lateral ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.indice-lateral ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.indice-lateral ul li a:hover,
+.indice-lateral ul li a.ativo {
+    color: #b22b2a;
+    font-weight: bold;
+}
+
+.indice-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Conteúdo principal */
+.conteudo-principal {
+    width: 75%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo-principal h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Imagem principal */
+.imagem-principal {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Autor */
+.autor {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Footer específico para páginas de leitura */
+footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #eaeaea;
+}
+
+/* Seção de resumo */
+.resumo {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 5px solid #007BFF;
+    margin-bottom: 30px;
+}
+
+/* Tabela de vantagens */
+.tabela-vantagens {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela-vantagens th, .tabela-vantagens td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tabela-vantagens th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Caixa de destaque */
+.caixa-destaque {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-left: 4px solid #007BFF;
+    margin: 20px 0;
+}
+
+/* Código de exemplo */
+.codigo-exemplo {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 15px;
+    font-family: monospace;
+    margin: 20px 0;
+}
+
+/* Botão de download */
+.btn-download {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.btn-download:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos específicos para a página wireless.html */
+
+/* Estilo geral para a página wireless */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Layout principal para a página wireless */
+.content {
+    display: flex;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+/* Índice lateral da página wireless */
+.indice-lateral {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.indice-lateral h3 {
+    margin-top: 0;
+}
+
+.indice-lateral ul {
+    list-style: none;
+    padding: 0;
+}
+
+.indice-lateral ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.indice-lateral ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.indice-lateral ul li a:hover,
+.indice-lateral ul li a.ativo {
+    color: #b22b2a;
+    font-weight: bold;
+}
+
+.indice-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Conteúdo principal da página wireless */
+.conteudo-principal {
+    width: 75%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo-principal h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Contêiner da imagem principal */
+.imagem-principal-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-bottom: 20px;
+}
+
+/* Imagem principal da página wireless */
+.imagem-principal {
+    width: 40%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+
+/* Autor da página wireless */
+.autor {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Footer da página wireless */
+footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #eaeaea;
+}
+
+/* Caixa de destaque da página wireless */
+.caixa-destaque {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-left: 4px solid #007BFF;
+    margin: 20px 0;
+}
+
+/* Estilos para gráfico e diagrama */
+/* Estilos para o contêiner de gráficos e diagramas */
+.grafico {
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    margin: 20px 0; /* Adicione margem se necessário */
+}
+
+.grafico img {
+    width: 65%;
+    height: auto;
+}
+
+
+/* Estilo do acordeão */
+.acordeao {
+    margin: 1rem 0;
+}
+
+.acordeao-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.acordeao-conteudo {
+    padding: 10px;
+    display: none;
+    border-top: 1px solid #ddd;
+}
+
+.acordeao-btn.active + .acordeao-conteudo {
+    display: block;
+}
+
+/* Estilo da tabela de padrões */
+.tabela-padroes {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.tabela-padroes th, .tabela-padroes td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabela-padroes th {
+    background-color: #f4f4f4;
+}
+
+/* Lista de limitações e desafios */
+.limitações-desafios,
+.aplicacoes {
+    list-style: none;
+    padding: 0;
+}
+
+.limitações-desafios li,
+.aplicacoes li {
+    margin: 0.5rem 0;
+}
+
+
+/* Estilo para listas de componentes e limitações/desafios */
+.componentes,
+.limitações-desafios,
+.aplicacoes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Adicionando estilo às listas */
+.componentes li,
+.limitações-desafios li,
+.aplicacoes li {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+   /* padding: 0px; */
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+/* Alterar a cor de fundo ao passar o mouse */
+.componentes li:hover,
+.limitações-desafios li:hover,
+.aplicacoes li:hover {
+    background-color: #ffffff;
+}
+
+/* Adiciona ícones à esquerda dos itens da lista (opcional) */
+.componentes li::before,
+.limitações-desafios li::before,
+.aplicacoes li::before {
+    content: '•';
+    color: #007BFF; /* Cor do ícone */
+    font-size: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Estilo para listas numeradas */
+.etapas-funcionamento {
+    list-style-type: decimal;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.etapas-funcionamento li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
