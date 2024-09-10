@@ -1,10 +1,11 @@
-<!-- Página Wireless (wireless.html) -->
+<!-- Página funcionamento (funcionamento.html) -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wireless: A Revolução na Comunicação Sem Fio</title>
+    <link rel="shortcut icon" href="../img/rede.png" type="image/x-icon">
+    <title>Wireless: Padronização</title>
     <link rel="stylesheet" href="./../css/reading.styles.css">
 </head>
 <body>
@@ -22,10 +23,10 @@
     <main>
         <div class="content">
             <aside class="indice-lateral">
-                <h3>Índice</h3> <br>
+                <h3>Índice</h3><br>
                 <ul>
                     <li>
-                        <a href="wireless.html">
+                        <a href="wireless.html" >
                             <img src="./../img/icons/icons8-wi-fi-64.png" alt="Ícone Wireless" class="indice-icon">
                             Wireless
                         </a>
@@ -71,20 +72,127 @@
 
             <section class="conteudo-principal">
                 <h2>Padronização</h2>
-                <p class="autor">Por Daniel Rodrigues</p>
+                <p class="autor">Por Fernando Maia</p>
 
-                <img src="./../images/wireless-tech.jpg" alt="Imagem sobre Wi-Fi" class="imagem-principal">
+                <div class="imagem-principal-container">
+                    <img src="./../img/padronizacao/R.png" alt="Gráfico de Componentes" class="imagem-principal">
+                </div>
 
+                <p><a href="https://www.ieee.org/">O IEEE (Institute of Electrical and Electronics Engineers)</a>
+                    em 1997 apresentou um modelo de referência para redes sem fio denominado IEEE 802.11. Este modelo define especificações que abrangem as camadas física e de enlace (segundo o modelo de referência OSI).
+                
+                <div class="caixa-destaque">
+                    <h3>Camadas</h3>
+                    <ul> <br>
+                      <li> <strong>a) Camada Física:</strong> define como as informações são trocadas no meio através de transmissão por radiofreqüência ou por infravermelho;   <li>
+                      <li> <strong>b) Camada de Enlace</strong> define o método de acesso ao meio. O Padrão IEEE 802.11 utiliza um método denominado CSMA/CA (Carrier Sense Multiple 
+                        Access with Collision Avoidance), semelhante ao das redes locais ethernet, 
+                        CSMA/CD (Carrier Sense Multiple Access with Collision Detection). </li>
+                    </ul>
+                    </p>
+                </div>
+
+                <h3>1. Detalhamento do Meio Físico</h3>
+                <div class="grafico">
+                    <img src="./../img/padronizacao/module.jpeg" alt="Gráfico de Componentes">
+                </div>
+        
+                    <p>
+                        A camada física no padrão IEEE 802.11 trata da transmissão dos bits através de radiofrequência ou infravermelho, utilizando as técnicas de modulação como o Frequency Hopping Spread Spectrum (FHSS) e o Direct Sequence Spread Spectrum (DSSS) para proteger o sinal contra interferências.
+                    </p>
+                 
+           
+
+               <br> <h3>2. Padronização do IEEE</h3><br>
+               <p> O IEEE 802.11 é o padrão para redes sem fio, introduzido em 1997. Ele especifica a operação em duas camadas: física e enlace, com diferentes variantes como: 
+    
+                
+
+                <table class="tabela-padroes">
+                    <thead>
+                        <tr>
+                            <th>Padrão</th>
+                            <th>Velocidade Máxima</th>
+                            <th>Frequência</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>802.11b</td>
+                            <td>11 Mbps</td>
+                            <td>2.4 GHz</td>
+                        </tr>
+                        <tr>
+                            <td>802.11g</td>
+                            <td>54 Mbps</td>
+                            <td>2.4 GHz</td>
+                        </tr>
+                        <tr>
+                            <td>802.11n</td>
+                            <td>600 Mbps</td>
+                            <td>2.4 GHz / 5 GHz</td>
+                        </tr>
+                        <tr>
+                            <td>802.11ac</td>
+                            <td>1.3 Gbps</td>
+                            <td>5 GHz</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>3. Largura de Banda</h3>
+                <div class="caixa-destaque">
+                    <h4>Definição</h4>
+                    <p>Largura de banda é a capacidade máxima de transmissão de dados em uma rede ou conexão em um determinado período de tempo. Ela é medida em bits por segundo (bps) e indica a quantidade de dados que podem ser enviados ou recebidos simultaneamente. Quanto maior a largura de banda, mais rápida e eficiente é a transmissão de dados.</p>
+                </div>
+
+                <p> No caso do FHSS, a largura de banda é de 83,5MHz dividida em 83 subcanais de 1MHz na faixa de 2,4GHz. Para DSSS, utiliza-se uma codificação com chips pseudoaleatórios para garantir a robustez do sinal.</p><br>
+
+                <h3>5. Taxa de Transmissão</h3>
+                <div class="grafico">
+                    <img src="./../img/padronizacao/transmissao-do-virus.gif" alt="Gráfico de Limitações">
+                </div>
                 <p>
-                    O Wi-Fi, padrão de comunicação sem fio desenvolvido para permitir a transferência de dados entre dispositivos em uma rede local, transformou a conectividade moderna. Com sua capacidade de oferecer altas velocidades de transmissão e ampla cobertura, o Wi-Fi rapidamente se tornou uma solução essencial para acessar a internet e conectar dispositivos de forma eficiente. 
-                </p>
-                <!-- Aqui você pode incluir mais conteúdo relacionado ao Wi-Fi -->
+                    A taxa de transmissão no IEEE 802.11b varia entre 1Mbps e 11Mbps, dependendo das condições do sinal. A técnica de modulação BPSK é usada para 1Mbps, enquanto a QPSK, com a técnica CCK, é usada para 11Mbps.
+                </p><br>
+            
+
+                <h3>5. Extensão de Funcionamento</h3><br>
+                <p>A extensão de funcionamento da rede depende da configuração da arquitetura, com áreas de cobertura chamadas BSAs. Redes podem ser estruturadas em modo infraestruturado, com Access Points (APs), ou ad-hoc (sem AP), com interconexão por DS (sistema de distribuição) para cobrir áreas maiores.</p>
+
+
+               
+            
             </section>
+            
         </div>
+        <section id="referencias" class="referencias">
+            <div class="container">
+                <h2>Referências</h2>
+                <ul>
+                    <li><a href=" https://www.maxwell.vrac.puc-rio.br/7589/7589_3.PDF" target="_blank">Padrão IEEE 802.11</a> -Pereira, J. (2005).</li>
+                   
+                </ul>
+            </div>
+        </section>
+        
     </main>
 
     <footer>
-        <p>&copy; 2024 TechRedes - Todos os direitos reservados</p>
+        <p>&copy; 2024 TechRedes. Todos os direitos reservados.</p>
     </footer>
+
+    <script>
+        document.querySelectorAll('.acordeao-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                button.classList.toggle('active');
+                const acordeaoContent = button.nextElementSibling;
+                acordeaoContent.style.display = acordeaoContent.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+
+
+        
+    </script>
 </body>
 </html>

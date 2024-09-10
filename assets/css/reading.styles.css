@@ -1,4 +1,3 @@
-/* Incluindo estilos da página principal */
 @import url('styles.css');
 
 /* Estilo geral para as páginas de leitura */
@@ -14,7 +13,6 @@ body {
     padding: 0 20px;
 }
 
-/* Índice lateral */
 .indice-lateral {
     width: 20%;
     background-color: #fff;
@@ -253,16 +251,15 @@ footer {
     margin: 20px 0;
 }
 
-/* Estilos para gráfico e diagrama */
-/* Estilos para o contêiner de gráficos e diagramas */
+/* Estilos para gráfico e diagramas */
 .grafico {
     display: flex;
     justify-content: center; /* Centraliza a imagem horizontalmente */
-    margin: 20px 0; /* Adicione margem se necessário */
+    margin: 20px 0; 
 }
 
 .grafico img {
-    width: 65%;
+    width: 25%;
     height: auto;
 }
 
@@ -353,7 +350,7 @@ footer {
     background-color: #ffffff;
 }
 
-/* Adiciona ícones à esquerda dos itens da lista (opcional) */
+/* Adiciona ícones à esquerda dos itens da lista */
 .componentes li::before,
 .limitações-desafios li::before,
 .aplicacoes li::before {
@@ -375,4 +372,20 @@ footer {
     margin-bottom: 10px;
     font-size: 16px;
     color: #333;
+}
+
+
+.acordeao-btn {
+    cursor: pointer;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.acordeao-btn:hover {
+    background-color: #d0d0d0;
+}
+
+.acordeao-btn.active {
+    background-color: #c0c0c0;
 }
