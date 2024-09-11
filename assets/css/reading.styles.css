@@ -271,7 +271,7 @@ footer {
 
 .acordeao-btn {
     background-color: #007BFF;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 10px;
     cursor: pointer;
