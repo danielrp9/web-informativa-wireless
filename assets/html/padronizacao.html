@@ -87,7 +87,17 @@
                       <li> <strong>a) Camada Física:</strong> define como as informações são trocadas no meio através de transmissão por radiofreqüência ou por infravermelho;   <li>
                       <li> <strong>b) Camada de Enlace</strong> define o método de acesso ao meio. O Padrão IEEE 802.11 utiliza um método denominado CSMA/CA (Carrier Sense Multiple 
                         Access with Collision Avoidance), semelhante ao das redes locais ethernet, 
-                        CSMA/CD (Carrier Sense Multiple Access with Collision Detection). </li>
+                        CSMA/CD (Carrier Sense Multiple Access with Collision Detection).
+                        
+
+                      <br><br> <li><strong>CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance):</strong>
+                        Antes de transmitir, o dispositivo escuta o canal para verificar se está livre.Caso o canal esteja ocupado, ele espera por um período aleatório antes de tentar novamente. Isso ajuda a evitar colisões, já que a comunicação sem fio não consegue detectar uma colisão enquanto ela ocorre, diferentemente do Ethernet com fio que utiliza CSMA/CD (Carrier Sense Multiple Access with Collision Detection).</li>
+
+                       <br><li><strong> Avoidance (Evitação):</strong> é uma característica importante, pois a rede tenta evitar colisões em vez de detectá-las após a ocorrência, devido à dificuldade de detectar colisões em uma transmissão sem fio.</li> 
+
+                       <br> <li><strong>Diferença entre CSMA/CA e CSMA/CD:</strong> CSMA/CA (Evitação de Colisão): Tenta evitar colisões antes que elas ocorram, usado em redes sem fio (Wi-Fi).
+                        CSMA/CD (Detecção de Colisão): Detecta colisões e reenvia os dados, utilizado em redes com fio (Ethernet).</li>
+                    
                     </ul>
                     </p>
                 </div>
@@ -98,8 +108,16 @@
                 </div>
         
                     <p>
-                        A camada física no padrão IEEE 802.11 trata da transmissão dos bits através de radiofrequência ou infravermelho, utilizando as técnicas de modulação como o Frequency Hopping Spread Spectrum (FHSS) e o Direct Sequence Spread Spectrum (DSSS) para proteger o sinal contra interferências.
-                    </p>
+                        A camada física no padrão IEEE 802.11 trata da transmissão dos bits através de radiofrequência ou infravermelho, utilizando as técnicas de modulação como o Frequency Hopping Spread Spectrum (FHSS) e o Direct Sequence Spread Spectrum (DSSS) para proteger o sinal contra interferências. 
+                    </p><br>
+
+                        <p>
+                           <strong> FHSS (Frequency Hopping Spread Spectrum):</strong> É uma técnica que alterna rapidamente a frequência de transmissão dentro de uma faixa definida. Isso ajuda a minimizar a interferência, pois os pacotes de dados "saltam" de uma frequência para outra em um padrão determinado, reduzindo a chance de colisões com outros sinais.
+                        </p><br>
+
+                        <p>
+                        <strong>DSSS (Direct Sequence Spread Spectrum):</strong> Nessa técnica, o sinal é espalhado por uma largura de banda maior usando uma sequência codificada. O DSSS espalha o sinal em uma gama de frequências, tornando-o mais resistente a ruído e interferência.
+                        </p>
                  
            
 
