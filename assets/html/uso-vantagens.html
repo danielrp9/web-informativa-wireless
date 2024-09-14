@@ -1,11 +1,11 @@
-<!-- Página Wireless (wireless.html) -->
+<!-- Página uso-vantagens (uso-vantagens.html) -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/rede.png" type="image/x-icon">
-    <title>Wireless: Usos e Vantagens</title>
+    <title>Wireless: Padronização</title>
     <link rel="stylesheet" href="./../css/reading.styles.css">
 </head>
 <body>
@@ -23,16 +23,16 @@
     <main>
         <div class="content">
             <aside class="indice-lateral">
-                <h3>Índice</h3> <br>
+                <h3>Índice</h3><br>
                 <ul>
                     <li>
-                        <a href="wireless.html">
+                        <a href="wireless.html" >
                             <img src="./../img/icons/icons8-wi-fi-64.png" alt="Ícone Wireless" class="indice-icon">
                             Wireless
                         </a>
                     </li>
                     <li>
-                        <a href="avancos-tecnologicos.html">
+                        <a href="avancos-tecnologicos.html" >
                             <img src="./../img/icons/icons8-conexão-rdp-100.png" alt="Ícone Avanços Tecnológicos" class="indice-icon">
                             Avanços Tecnológicos
                         </a>
@@ -71,21 +71,69 @@
             </aside>
 
             <section class="conteudo-principal">
-                <h2>Uso e Vantagens</h2>
-                <p class="autor">Por Daniel Rodrigues</p>
+                <h2>Usos e Vantagens</h2>
+                <p class="autor">Por Raul Rodrigues</p>
 
-                <img src="./../images/wireless-tech.jpg" alt="Imagem sobre Wi-Fi" class="imagem-principal">
+                <div class="imagem-principal-container">
+                    <img src="./../img/avancos-tecnologicos/avancos1.jpg" alt="Gráfico de Componentes" class="imagem-principal">
+                </div>
 
-                <p>
-                    O Wi-Fi, padrão de comunicação sem fio desenvolvido para permitir a transferência de dados entre dispositivos em uma rede local, transformou a conectividade moderna. Com sua capacidade de oferecer altas velocidades de transmissão e ampla cobertura, o Wi-Fi rapidamente se tornou uma solução essencial para acessar a internet e conectar dispositivos de forma eficiente. 
-                </p>
-                <!-- Aqui você pode incluir mais conteúdo relacionado ao Wi-Fi -->
-            </section>
+                <p>A eliminação da necessidade de que toda a rede passe por cabos trás uma série de vantagens que serão discutidas adiante, algumas delas estão diretamente ligadas à popularização de redes sem fio. Podemos encontrá-las nos lares, nas empresas, nas escolas e universidades e muitos outros ambientes onde transmitir informação sem cabos pode ser vantajoso. Algumas aplicações desse tipo de rede são: 
+                </p><br>
+
+        
+
+                        <p><strong>Uso Doméstico:</strong>
+                            Possivelmente o uso mais comum. Amplamente utilizado para estrutura de redes domésticas, que aproveitam a vantagem de poder conectar vários dispositivos móveis como celulares e notebooks. há ainda um conceito recente de casas automatizadas, onde os dispositivos estão interconectados via redes wi-fi.
+                        </p><br>
+
+                        <p>
+                        <strong>Instituições: </strong> as instituições (hospitalares, educacionais, militares, etc) utilizam amplamente conexões sem fio para interligar seus dispositivos,funcionários, setores de forma dinâmica e facilitada.
+                        </p><br>
+
+                        <p>
+                            <strong>IoT: </strong> 
+                            Redes wireless são fundamentais para conectar dispositivos IoT, como termostatos, câmeras, e dispositivos de monitoramento de saúde, que precisam estar conectados à internet sem a necessidade de cabeamento físico.
+                        </p><br>
+
+                        <p>
+                            <strong>Fornecimento de Internet:</strong>
+                            Diversas entidades usam o fornecimento de internet para melhorar sua relação com clientes e outros. A facilidade de conectar um novo dispositivo à rede torna a espera em aeroportos, shoppings, parques torna a experiência dos usuários mais agradável, sendo uma melhoria importante na satisfação daqueles que usam. 
+                        </p><br>
+
+                        
+
+
+
+            
         </div>
+        <section id="referencias" class="referencias">
+            <div class="container">
+                <h2>Referências</h2>
+                <ul>
+                    <li><a href=" https://www.maxwell.vrac.puc-rio.br/7589/7589_3.PDF" target="_blank">Padrão IEEE 802.11</a> - Pereira, J. (2005).</li>
+                   
+                </ul>
+            </div>
+        </section>
+        
     </main>
 
     <footer>
-        <p>&copy; 2024 TechRedes - Todos os direitos reservados</p>
+        <p>&copy; 2024 TechRedes. Todos os direitos reservados.</p>
     </footer>
+
+    <script>
+        document.querySelectorAll('.acordeao-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                button.classList.toggle('active');
+                const acordeaoContent = button.nextElementSibling;
+                acordeaoContent.style.display = acordeaoContent.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+
+
+        
+    </script>
 </body>
 </html>
