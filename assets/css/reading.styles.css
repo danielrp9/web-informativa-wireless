@@ -3,6 +3,7 @@
 /* Estilo geral para as páginas de leitura */
 body {
     background-color: #f5f5f5;
+    
 }
 
 /* Layout principal para páginas de leitura */
@@ -399,3 +400,6 @@ footer {
 .acordeao-btn.active {
     background-color: #c0c0c0;
 }
+
+/*<!-- Desenvolvido por [Daniel Rodrigues Pereira]/ -->
+*/
