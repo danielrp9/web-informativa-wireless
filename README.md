@@ -1,4 +1,4 @@
-a# Projeto WIRELESS
+# Projeto WIRELESS
 
 ## Descrição
 Este projeto foi desenvolvido como um trabalho técnico sobre a Tecnologia Wireless para fins acadêmicos da disciplina de Redes I, ministrada pelo docente Eduardo Peli.
