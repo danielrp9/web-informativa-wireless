@@ -3,11 +3,15 @@ a# Projeto WIRELESS
 ## Descrição
 Este projeto foi desenvolvido como um trabalho técnico sobre a Tecnologia Wireless para fins acadêmicos da disciplina de Redes I, ministrada pelo docente Eduardo Peli.
 
-## Estrutura do Projeto
+## Estrutura do Projeto - Wireless
 O projeto contém uma página HTML que detalha
-- A camada física do IEEE 802.11.
-- Os padrões da IEEE para redes sem fio.
-- Largura de banda, taxas de transmissão e cobertura.
+- História Wireless;
+- O que é e como funciona;
+- Funcionamento;
+- Padronização;
+- Avanços da Tecnologia;
+- Uso e Vantagens;
+- Referências;
 
 ## Membros do Grupo
 - Daniel Rodrigues Pereira - [daniel.pereira@ufvjm.edu.br](mailtodaniel.pereira@ufvjm.edu.br)  [danielrodrigues878@hotmail.com](mailtodanielrodrigues878@hotmail.com)
